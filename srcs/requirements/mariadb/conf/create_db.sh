@@ -1,10 +1,4 @@
-#!/bin/sh
-
-DB_ROOT=$(cat /run/home/pokpalae/inception/secrets/db_root_password.txt)
-DB_PASS=$(cat /run/home/pokpalae/inception/secrets/db_password.txt)
-DB_USER="wpuser"
-DB_NAME="wordpress"
-
+#!bin/sh
 
 if [ ! -d "/var/lib/mysql/mysql" ]; then
 
