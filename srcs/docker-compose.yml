@@ -2,6 +2,7 @@ version: '3'
 
 services:
   nginx:
+    image: nginx
     build:
       context: .
       dockerfile: requirements/nginx/Dockerfile
@@ -19,6 +20,7 @@ services:
     restart: always
 
   mariadb:
+    image: mariadb
     build:
       context: .
       dockerfile: requirements/mariadb/Dockerfile
@@ -37,6 +39,7 @@ services:
     restart: always
 
   wordpress:
+    image: wordpress
     build:
       context: .
       dockerfile: requirements/wordpress/Dockerfile
@@ -54,6 +57,7 @@ services:
       - wp-volume:/var/www/
 
   redis:
+    image: redis
     build:
       context: .
       dockerfile: requirements/bonus/redis/Dockerfile
