@@ -116,12 +116,6 @@ Good question! VMs can solve the same problem, but:
 
 
 
-
-
-
-
-
-
 𝘼𝙨𝙥𝙚𝙘𝙩               𝘿𝙤𝙘𝙠𝙚𝙧 𝘾𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧𝙨
 
 𝙎𝙞𝙯𝙚:	             MBs
