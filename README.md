@@ -84,16 +84,28 @@ This image can be run anywhere: on another developer’s machine, in a test envi
 
 Good question! VMs can solve the same problem, but:
 
-Aspect	Virtual Machines	                                                     Docker Containers
+𝘼𝙨𝙥𝙚𝙘𝙩	              𝙑𝙞𝙧𝙩𝙪𝙖𝙡 𝙈𝙖𝙘𝙝𝙞𝙣𝙚𝙨
 
-𝙎𝙞𝙯𝙚:	     GBs	                                                                   MBs
+𝙎𝙞𝙯𝙚:	               GBs	                                                                  
 
-𝘽𝙤𝙤𝙩 𝙩𝙞𝙢𝙚:	Minutes	                                                                Seconds
+𝘽𝙤𝙤𝙩 𝙩𝙞𝙢𝙚:	            Minutes	                                                               
 
-𝙋𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚:	Slower (entire OS)	                                                 Faster (uses host kernel)
+𝙋𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚:	         Slower (entire OS)	                                                
 
-𝙀𝙛𝙛𝙞𝙘𝙞𝙚𝙣𝙘𝙮:	Less efficient (1 VM = 1 OS)	                                           Very efficient (shared kernel)
+𝙀𝙛𝙛𝙞𝙘𝙞𝙚𝙣𝙘𝙮:	            Less efficient (1 VM = 1 OS)	                                         
 
-𝙋𝙤𝙧𝙩𝙖𝙗𝙞𝙡𝙞𝙩𝙮:	Limited	                                                                Very portable
+𝙋𝙤𝙧𝙩𝙖𝙗𝙞𝙡𝙞𝙩𝙮:	            Limited	                                                               
 
 
+
+𝘼𝙨𝙥𝙚𝙘𝙩               𝘿𝙤𝙘𝙠𝙚𝙧 𝘾𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧𝙨
+
+𝙎𝙞𝙯𝙚:	             MBs
+
+𝘽𝙤𝙤𝙩 𝙩𝙞𝙢𝙚:          Seconds
+
+𝙋𝙚𝙧𝙛𝙤𝙧𝙢𝙖𝙣𝙘𝙚:        Faster (uses host kernel)
+
+𝙀𝙛𝙛𝙞𝙘𝙞𝙚𝙣𝙘𝙮:          efficient (shared kernel)
+ 
+𝙋𝙤𝙧𝙩𝙖𝙗𝙞𝙡𝙞𝙩𝙮:          Very portable 
