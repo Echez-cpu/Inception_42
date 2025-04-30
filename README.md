@@ -34,7 +34,12 @@ This makes them heavy (often tens of gigabytes) and slower to boot than containe
 ✅ 𝙒𝙝𝙮 𝘿𝙤𝙘𝙠𝙚𝙧? 𝙒𝙝𝙖𝙩 𝙋𝙧𝙤𝙗𝙡𝙚𝙢 𝘿𝙤𝙚𝙨 𝙄𝙩 𝙎𝙤𝙡𝙫𝙚?
 
 
+
+
 Before Docker (and before microservices became the norm), most applications were built as monoliths — big, tightly-coupled systems. In that setup:
+
+
+
 
 💣 𝙊𝙣𝙚 𝘾𝙧𝙖𝙨𝙝 𝘾𝙤𝙪𝙡𝙙 𝙏𝙖𝙠𝙚 𝘿𝙤𝙬𝙣 𝙀𝙫𝙚𝙧𝙮𝙩𝙝𝙞𝙣𝙜
    𝘐𝘯 𝘢 𝘮𝘰𝘯𝘰𝘭𝘪𝘵𝘩𝘪𝘤 𝘢𝘱𝘱:
@@ -51,6 +56,8 @@ A fatal error in the email module = entire server restarts = downtime across the
 
 
 Before Docker, a common problem developers faced was the "It works on my machine" issue.
+
+
 
 𝙀𝙭𝙖𝙢𝙥𝙡𝙚:
 A developer writes code and it runs perfectly on their machine.
@@ -69,6 +76,8 @@ Conflicting software versions
 
 
 
+
+
 ✅𝙒𝙝𝙚𝙧𝙚 𝘿𝙤𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙚𝙨 𝙄𝙣
 
 Docker solves this problem by allowing developers to package the app along with everything it needs — dependencies, environment variables, binaries — into a Docker image.
@@ -77,7 +86,14 @@ This image can be run anywhere: on another developer’s machine, in a test envi
 
 
 
+
+
+
+
 ✅𝙒𝙝𝙮 𝙉𝙤𝙩 𝙅𝙪𝙨𝙩 𝙐𝙨𝙚 𝙑𝙈𝙨?
+
+
+
 
 
 
@@ -95,6 +111,14 @@ Good question! VMs can solve the same problem, but:
 𝙀𝙛𝙛𝙞𝙘𝙞𝙚𝙣𝙘𝙮:	            Less efficient (1 VM = 1 OS)	                                         
 
 𝙋𝙤𝙧𝙩𝙖𝙗𝙞𝙡𝙞𝙩𝙮:	            Limited	                                                               
+
+
+
+
+
+
+
+
 
 
 
