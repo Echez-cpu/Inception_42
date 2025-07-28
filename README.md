@@ -88,30 +88,28 @@ In the Inception project, you’ll containerize a multi-service architecture usi
 
 ---
 
-## 📦 Project Structure (Typical Layout)
+### 📁 Project Structure
 
-
+```
 inception/
 ├── srcs/
-│ ├── docker-compose.yml
-│ ├── .env
-│ └── requirements/
-│ ├── nginx/
-│ │ ├── Dockerfile
-│ │ └── conf/
-│ ├── wordpress/
-│ │ ├── Dockerfile
-│ │ └── tools/
-│ └── mariadb/
-│ ├── Dockerfile
-│ └── tools/
+│   ├── docker-compose.yml         # Defines the multi-container Docker setup
+│   ├── .env                       # Environment variables (DB credentials, etc.)
+│   └── requirements/
+│       ├── nginx/
+│       │   ├── Dockerfile         # NGINX Dockerfile
+│       │   └── conf/              # NGINX configuration files
+│       ├── wordpress/
+│       │   ├── Dockerfile         # WordPress Dockerfile
+│       │   └── tools/             # WordPress setup scripts/tools
+│       └── mariadb/
+│           ├── Dockerfile         # MariaDB Dockerfile
+│           └── tools/             # MariaDB initialization scripts
 └── secrets/
-├── wp_db.sql
-├── wp_admin_pass.txt
-└── mariadb_root_pass.txt
-
-
-
+    ├── wp_db.sql                  # Preloaded WordPress DB schema
+    ├── wp_admin_pass.txt          # WordPress admin password
+    └── mariadb_root_pass.txt      # MariaDB root password
+```
 ---
 
 ## 📌 Features
